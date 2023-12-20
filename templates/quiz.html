@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videogame Retrô Anos 80 - Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="retro-box">
+        <h1>Meu Congresso Nacional - Game</h1>
+        <p>Responda à seguinte pergunta: </p>
+        <form method="post" action="{{ url_for('quiz') }}">
+            <p>{{ question["pergunta"] }}</p>
+            {% for option in question["alternativas"] %}
+                <input type="radio" name="answer" value="{{ option }}" required> {{ option }}<br>
+            {% endfor %}
+            <button type="submit" class="retro-button">Próxima Pergunta</button>
+        </form>
+    </div>
+</body>
+</html>

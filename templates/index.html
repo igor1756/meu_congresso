@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videogame Retrô Anos 80</title>
+    <!-- o style vira uma rota... -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="retro-box">
+        <h1>Meu Congresso Nacional - Game</h1>
+        <p>Seja Bem-vindo!</p>
+        <p>Será que vc conhece bem a Casa do Povo?</p>
+        <a href="{{ url_for('quiz') }}" class="retro-button">Jogar Agora</a>
+    </div>
+</body>
+</html>

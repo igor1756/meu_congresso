@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videogame Retrô Anos 80 - Pontuação</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="retro-box">
+        <h1>Game Meu Congresso Nacional - Sua Pontuação</h1>
+        <p>Sua pontuação final: {{ final_score }}/3</p><br>
+        <p>Parabéns!!!</p><br>
+        <a href="{{ url_for('index') }}" class="retro-button">Jogar Novamente</a>
+    </div>
+</body>
+</html>
