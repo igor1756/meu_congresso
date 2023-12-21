@@ -21,4 +21,5 @@ O jogo consiste em um quiz com questões a respeito da composição do Congresso
 `cd meu_congresso`
 
 - Executar o programa
+
 `python app.py`
