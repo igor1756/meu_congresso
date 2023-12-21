@@ -10,4 +10,11 @@
 
 O jogo consiste em um quiz com questões a respeito da composição do Congresso Nacional na legislatura 2023/2026 com o intuito de estimular o interesse dos cidadãos a respeito dos seus representantes políticos.
 
-# TODO roteiro para execução
+# Execução
+
+- Clonar o projeto
+`git clone <url-http>`
+- Entrar no diretório
+`cd meu_congresso`
+- Executar o programa
+`python app.py`
