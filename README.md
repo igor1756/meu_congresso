@@ -13,8 +13,12 @@ O jogo consiste em um quiz com questões a respeito da composição do Congresso
 # Execução
 
 - Clonar o projeto
-`git clone <url-http>`
+
+`git clone https://github.com/igor1756/meu_congresso.git`
+
 - Entrar no diretório
+
 `cd meu_congresso`
+
 - Executar o programa
 `python app.py`
